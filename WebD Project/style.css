@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 3vw;
+}
+table{
+  border-color: blue;
+  border: 1px solid black;
+  height: 100%;
+  width: 100%;
+}
+td{
+  height: 1vw;
+  border: 2px solid black;
+  text-align: center;
+}
+form{
+  padding-top: 1vw;
+  height: 10vw;
+}
+.img {
+    height:40px;
+    width :44px;
+    transition: all ease 0.5s;
+}
+.img:hover{
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+}
+.button {
+  padding: 0.4vw;
+  border-radius: 25px;
+  color: black;
+  
+}
+.button:hover {
+  border-color: #1d70dd;
+  box-shadow: 5px 5px 8px 1px #5388ce;
+  font-size: 3.5vw;
+  background-color: #2774d8;
+  color: #ffffff;
+}
+.link{
+  color: black;
+  text-decoration: none;
+}
+.books{
+  background-color: #b8c7db;
+}
+.scroll {
+  background-color: #eee;
+  width: 100%;
+  height: 90%;
+  border: 0px black;
+  overflow-y: scroll;
+}
+.scroll table,.scroll td{
+  border: 0px;
+}
